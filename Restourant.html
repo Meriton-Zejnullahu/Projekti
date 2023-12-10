@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Restourant.css">
+    <title>Restaurant Website</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Shija e Vjeter</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#location">Location</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="photo-container">
+            <img src="logo1.png" alt="Home Photo">
+        </div>
+        <h2 style="position: relative;padding: 0;margin: 0;">Mirësevini në restorantin tonë</h2>
+       
+    </section>
+
+    <section id="about">
+        <h2>Rreth nesh</h2>
+        <p>Ne jemi të angazhuar për të ofruar një përvojë të këndshme ngrënie me pjatat tona të shijshme dhe të punuara me kujdes</p>
+    </section>
+
+    <section id="menu" onclick="goToAnotherPage1()">
+        <h2>Menu</h2>
+        <p>Eksploroni menunë tonë të larmishme me një gamë të gjerë kënaqësish</p>
+      
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Keni pyetje apo doni të rezervoni një tavolinë? Na kontakto!</p>
+        
+    </section>
+
+    <section id="location">
+        <h2>Location</h2>
+        <p>Na vizitoni në vendin tonë të përshtatshëm për një përvojë të paharrueshme ngrënieje.</p>
+       
+    </section>
+
+    <section id="register">
+        <h2>Register</h2>
+        <div class="login-container" onclick="goToAnotherPage()">
+            <button class="login-button"></a>Login</button>
+        </div>
+       
+      
+    </section>
+
+    <section id="features">
+        <h2>Features</h2>
+        <div class="feature">
+            <img src="img2.jpg" alt="Feature 1">
+            <p>Delicious Cuisine</p>
+        </div>
+        <div class="feature">
+            <img src="img1.webp" alt="Feature 2">
+            <p>Cozy Ambiance</p>
+        </div>
+        <div class="feature">
+            <img src="img3.web.webp" alt="Feature 3">
+            <p>Exceptional Service</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Our Restaurant. All rights reserved.</p>
+    </footer>
+    <script>
+        function goToAnotherPage() {
+    window.location.href = "login.html";
+}
+
+function goToAnotherPage1() {
+    window.location.href = "menuja.html";
+}
+    </script>
+  
+</body>
+</html>
